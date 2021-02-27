@@ -255,7 +255,7 @@ span.answer
 
 
 @media screen and (max-width:700px) 
-{
+    {
     #code, #console {
       width: 100%;
       overflow: hidden;
@@ -269,34 +269,50 @@ span.answer
     .Header{
         font-size: 2em;
     }
-  }
+    }
+
+@media (max-width: 506px)
+{
+    #console{
+        font-size: 9px;
+    }
+
+}
   
-  @media (max-width: 506px)
-   {
-      #console{
-          font-size: 9px;
-      }
-    
-  }
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+
+}
   
-  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
-  
-  }
-  
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
 
     #code, #console {
-      height:auto;
+        height:auto;
     }
     #console {
-      padding: 20px;
+        padding: 20px;
     }
-  
-    #code {
-      margin-bottom: 20px;
-    }
-  }
 
+    #code {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+.About-Me-Header{
+    font-size: 2.8em;
+    display: inline;
+    text-align: center;
+}
+@media (max-width: 455px)
+{
+    .About-Me-Header{
+        font-size: medium;
+       
+    }
+
+}
 
   .footer {
 	width: 100%;
