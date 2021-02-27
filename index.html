@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
     <title>Diego Castro</title>
@@ -92,16 +91,17 @@
         </div>
         <br/>
     </div>
-</div>
+
     <div id="about-me">
     <div class="about">
             <div class="cont"> 
                 <div id="circle-shape-example">
-                    <img src="/images/Diego_Picture.jpg" alt="Diego Hiking in Costa Rica" class="curve"><h1 class="About-Me-Header">About Me</h1>
-                    <div>
-                    <p class="info"> So a little about myself... I was born in Hong Kong in June 1998. I lived there for a couple of years, and then we moved to the Phillipines. After about 6 years living in Manila, we moved to Costa Rica. I graduated from Lincoln School Costa Rica, 
-                        and began attending FSU in Fall 2017. For fun, I love playing chess, and I am happy to have had the opportunity to represent FSU twice in the Collegiate Chess League. I also like running and watching movies.  </p>
-                    </div>
+                    <img src="/images/Diego_Picture.jpg" alt="Diego Hiking in Costa Rica" class="curve">
+                    <h1 class="About-Me-Header">About Me</h1>
+                
+                    <p class="info" style="color: black;"> I was born in Hong Kong in June 1998. I lived there for a couple of years, and then my family and I moved to the Phillipines. After about 6 years living in Manila, we moved to Costa Rica. I graduated from Lincoln School Costa Rica, 
+                        and began attending FSU in Fall 2017. For fun, I love playing chess, and I am happy to have had the opportunity to represent FSU twice in the Collegiate Chess League. I also like running and watching movies. I speak English and Spanish fluently and French at an intermmediate level.  </p>
+        
                   </div>
             </div>
     </div>
@@ -200,35 +200,79 @@
     </div>
 </div>
 
+<div class="cont">
+    <h2 class="Header">Education</h2>
+</div>
 <div id="my-education">
-    <div class="education"> 
-        <h2 class="Header">Education</h2>
-        <div class="fsu">
-            <h2 class="Sub-Header">Florida State University</h1>
-            <img>
-        </div>
-        <ul class="Courses">
-            <li>Introduction to Programming ---- A-</li>
-            <li>Introduction to Programming ---- A-</li>
-            <li>Introduction to Programming ---- A-</li>
-            <li>Introduction to Programming ---- A-</li>
-            <li>Web Programming and Design ---- A-</li>
-            <li>Introduction to Programming ---- A-</li>
-        </ul>
-        <h2>Other Courses</h2>
-        <ul class="Languages">
-            <li>Udemy</li>
-            <li>CodePath</li>
-        </ul>
-    </div>
+            <button class="accordion"><h2 class="Sub-Header">Florida State University</h2></button>
+            <div class="panel">
+                <div id="circle-shape-example">
+                    <img src="/images/Florida-State-University-50-No-GRE-Master’s-in-Human-Resources-Online-Programs-2021.png" id="FSU-pic" class="curve">
+                    <p class="info"> When I began attending FSU in Fall 2017, my major was not computer science but rather mechanical engineering. After my first year at FSU, however, I realized that I was far more passionate about coding and computer science than mechanical engineering. Three years later, I am happy to say I do not, in the slightest, regret having switched from mechanical engineering, and will be graduating with a Bachelors of Science in Computer Science in Spring 2021 with a GPA of 3.623.   </p>
+                </div>
+            </div>
+            <button class="accordion"><h2 class="Sub-Header">Other Courses</h2></button>
+            <div class="panel">
+                <div class="cont">
+                    <h1 class="info-header">CodePath</h1>  <br>
+                    <p class="info"> In addition to my university courses, I also took a 13-week IOS development course from CodePath. Here I learned the basics of IOS-app development and Swift. I built twitter clones, yelp clones and collaborated in a building a running app. This course really helped me understand how mobile apps can be developed and also taught me how to collaborate with a team to build applications. </p>
+                </div>
+                <div class="cont">
+                    <h1 class="info-header">Udemy</h1><br>
+                    <p class="info" style="font-size: large;"> For fun and to futher my understanding of various topics I have taken the following courses on Udemy: </p>
+                    <ul class="course-lst">
+                        &nbsp;&nbsp;<li><p class="Courses"> &nbsp;&nbsp;Automate the Boring Stuff with Python</p></li>
+                        &nbsp;&nbsp;<li><p class="Courses"> &nbsp;&nbsp;The Complete Front End Development Course</p></li>
+                        &nbsp;&nbsp;<li><p class="Courses">&nbsp;&nbsp;Complete NodeJs course with express</p></li>
+                        &nbsp;&nbsp;<li><p class="Courses">&nbsp;&nbsp;Python Excel - Read Write and Copy</p></li>
+                        &nbsp;&nbsp;<li><p class="Courses">&nbsp;&nbsp;Learn Ethical Hacking: Begginer to Advanced</p></li>
+                    </ul>
+                </div>
+                
+               
+            </div>    
 </div>
 <div id="contact-me">
-    <div class="contact"> 
-  
-       FORM GOES HERE
-    
-    </h1>
-    </div>
+<h1 class="h1-contact"> Contact Me 
+    <small>I will get back to you shortly! </small>
+  </h1>
+  <section class="contact-wrap">
+    <form action="https://formspree.io/f/mdoprewa"  method="POST" class="contact-form">
+      <div class="col-sm-12">
+        <div class="input-block">
+          <label for="">First Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-16">
+        <div class="input-block">
+          <label for="">Last Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block">
+          <label for="">Email</label>
+          <input type="text" class="form-control" name="_replyto">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block">
+          <label for="">Message Subject</label>
+          <input type="text" class="form-control" name="message">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block textarea">
+          <label for="">Drop your message here</label>
+          <textarea rows="3" type="text" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <button class="square-button">Send</button>
+      </div>
+    </form>
+  </section>
 </div>
 
     <div class="footer">
@@ -254,15 +298,8 @@
                 <li><i class="fa fa-phone" aria-hidden="true"></i>(850)-559-3051</li>
                 <li><a href="mailto:diegojcastro1998@gmail.com">diegojcastro1998@gmail.com</a></li>
               </ul> 
-          </div>
-          
-       
-
-          
+          </div>  
         </div>
-        
-        
-        
       <!--   Footer Bottom start  -->
         <div class="footer-bottom">
           Copyright &copy; Diego Castro 2021.
@@ -271,6 +308,12 @@
         <br>
         <br>
     </div>
+</div>
     <script src="script.js"></script>
+
+    
 </body>
+<script type="text/typescript" src="animation.ts"></script>
+<script type="text/javascript" src="typescript.min.js"></script>
+<script type="text/javascript" src="typescript.compile.min.js"></script>
 </html>

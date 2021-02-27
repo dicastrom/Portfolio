@@ -42,6 +42,9 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+
+
+
 const app = ()=>{
     navSlide();
     accordion()
