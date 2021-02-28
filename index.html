@@ -239,33 +239,19 @@
   <section class="contact-wrap">
     <form action="https://formspree.io/f/mdoprewa"  method="POST" class="contact-form">
       <div class="col-sm-12">
-        <div class="input-block">
-          <label for="">First Name</label>
-          <input type="text" class="form-control">
-        </div>
+        
       </div>
       <div class="col-sm-16">
+      <div class="col-sm-12">
         <div class="input-block">
-          <label for="">Last Name</label>
-          <input type="text" class="form-control">
+          <input type="text" placeholder= "Email..."class="form-control" name="_replyto">
         </div>
       </div>
       <div class="col-sm-12">
-        <div class="input-block">
-          <label for="">Email</label>
-          <input type="text" class="form-control" name="_replyto">
-        </div>
-      </div>
-      <div class="col-sm-12">
-        <div class="input-block">
-          <label for="">Message Subject</label>
-          <input type="text" class="form-control" name="message">
-        </div>
       </div>
       <div class="col-sm-12">
         <div class="input-block textarea">
-          <label for="">Drop your message here</label>
-          <textarea rows="3" type="text" class="form-control"></textarea>
+          <textarea placeholder= "Message..." type="text" class="form-control" name="message"></textarea>
         </div>
       </div>
       <div class="col-sm-12">
@@ -273,6 +259,12 @@
       </div>
     </form>
   </section>
+
+  
+  <div class="form__group">
+    <textarea id="message" class="form__field" placeholder="Your Message" rows="6"></textarea>
+    <label for="message" class="form__label">Your Message</label>
+  </div>
 </div>
 
     <div class="footer">
@@ -313,7 +305,5 @@
 
     
 </body>
-<script type="text/typescript" src="animation.ts"></script>
-<script type="text/javascript" src="typescript.min.js"></script>
-<script type="text/javascript" src="typescript.compile.min.js"></script>
+
 </html>
