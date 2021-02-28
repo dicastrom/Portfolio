@@ -273,9 +273,7 @@ span.answer
     .text{
         display: none;
     }
-    .Header{
-        font-size: 2em;
-    }
+   
     }
 
 @media (max-width: 506px)
@@ -464,8 +462,9 @@ li i {
 	
     .curve{
         display: none;
-        width:250px;
-        margin: 30px;
+    }
+    #FSU-pic{
+        display: none;
     }
   
 
@@ -483,6 +482,7 @@ li i {
     display: inline;
     text-align: center;
     color:rgba(0, 0, 0);
+     color: #ff7c62;
     /* padding-top: 20px;
     margin: 10px;
     margin: 25px;
@@ -567,7 +567,7 @@ li i {
   }
 
 #FSU-pic{
-    padding: 20px;
+  position: relative;
 }
 
 
@@ -617,8 +617,10 @@ li i {
   line-height: 1.8; 
 }
 #circle-shape-example .curve { 
-  width: 20%; height: auto;
+  padding: 10px;
+  width: 10%; height: auto;
   min-width: 150px;
+  max-width: 200px;
   float: left;
   margin-right:2rem; 
   border-radius: 50%;
