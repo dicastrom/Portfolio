@@ -290,9 +290,6 @@ span.answer
 
 }
   
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
-
-}
 
   
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
@@ -402,8 +399,8 @@ ul a:hover {
 }
 
 ul li {
-	margin: 10px 0;
-	height: 25px;
+	margin: 5px 0;
+	height: 20px;
 }
 
 li i {
@@ -459,6 +456,7 @@ li i {
 }
 
 @media screen and (max-width: 500px) {
+
 	
     .curve{
         display: none;
@@ -466,6 +464,17 @@ li i {
     #FSU-pic{
         display: none;
     }
+    #Node{
+      font-size: large;
+    }
+    .Courses{
+      font-size:9px ;
+      text-align: center;
+    }
+    #circle-shape-example{
+      margin: 5px;
+    }
+    
   
 
 }
@@ -556,13 +565,15 @@ li i {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.2em;
     margin: 10px;
-    color:#a7a1a1; ;
+    color:#a7a1a1; 
+    text-align:center;
  }
   .info-header{
     font-family: 'Montserrat', sans-serif;
     color:#f1eaea;
     font-size: x-large;
     font-weight: 900;
+    text-align: center;
     /* width: 90%; */
   }
 
@@ -589,8 +600,17 @@ li i {
     font-size: 20px;
   }
   .about{
+    margin-top: 10px;;
       
       text-align: center;
+  }
+  @media screen and (max-height:400px){
+    .introduction{
+      display: none;
+    }
+  }
+  {
+
   }
   .info-me{
 
@@ -603,7 +623,7 @@ li i {
 #circle-shape-example { 
   font-family: Open Sans, sans-serif; 
   margin: 2rem; 
-  padding: 50px;
+  padding: 20px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   border-radius: 0%;
   background-color: rgba(255, 255, 255, .15);  
@@ -612,7 +632,17 @@ li i {
   
   
 }
+@media screen and (max-width:400px){
+  #circle-shape-example{
+    margin: 10px; 
+  padding: 10px;
+  }
+}
 
+
+#Node{
+  
+}
 #circle-shape-example p { 
   line-height: 1.8; 
 }
@@ -635,10 +665,22 @@ li i {
 }
 .course-lst{
     list-style: square;
-}
+    margin-left: 30px;
+
+  }
 #contact-me{
 
     
+}
+.Coin-div{
+  text-align: center;
+ 
+}
+.Coin-div:hover{
+  color:#ff512f;
+}
+#Coin{
+  text-align:center ;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
@@ -774,7 +816,8 @@ body {
   
   html,
   body {
-    background: #0e101f;
+    background: #454a48;
+
     margin: 0;
     padding: 0;
   }
