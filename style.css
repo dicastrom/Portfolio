@@ -25,7 +25,16 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
   }
+  @media screen and (max-width:1070px){
+    #FSU-div{
+    min-height: 500px;
+    color: red;
+
+    }
+
+  }
   
+
   body {
     margin: 0;
     font-size: 14px;
@@ -626,9 +635,16 @@ li i {
   background-color: rgba(255, 255, 255, .15);  
  backdrop-filter: blur(5px);
  display: block;
-  
+}
+@media (min-width: 1070px) {
+  #circle-shape-example{
+    min-height: 200px;
+  }
   
 }
+
+
+
 @media screen and (max-width:400px){
   #circle-shape-example{
     margin: 10px; 
